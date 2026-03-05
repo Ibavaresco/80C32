@@ -1,0 +1,166 @@
+(footprint "CAPACITOR-RADIAL-D8.20-P3.8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.905 -5.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4bf9cb31-06b8-44c0-bfcb-c06853e725a0")
+		(effects
+			(font
+				(size 1.64 1.725)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "{Value}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "489eda40-8ff0-44a5-aa75-8f3e945723db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87e1e628-97bd-4cc0-aa7f-35d9a6e71253")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "414caecb-bd62-449a-832a-b0409afe714b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.635 -1.905)
+		(end 0.635 -1.905)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7362c168-2c64-4845-b6cc-815f218d9800")
+	)
+	(fp_line
+		(start 0 -1.27)
+		(end 0 -2.54)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d19830da-139c-42c3-81f1-c4c2b007ee23")
+	)
+	(fp_circle
+		(center 1.905 0)
+		(end 6.105 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2e596b7f-1e4d-458f-93f4-b95808d96afe")
+	)
+	(fp_line
+		(start -0.775 -0.775)
+		(end 0.775 -0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44c4fc90-ac56-4304-83b5-f434a92cd8d9")
+	)
+	(fp_line
+		(start -0.775 0.775)
+		(end -0.775 -0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f921f68-0fbe-4b8f-9e81-425013eb351d")
+	)
+	(fp_line
+		(start 0.775 -0.775)
+		(end 0.775 0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "057fc949-8273-4eda-8d5e-1e4a4ff75ccf")
+	)
+	(fp_line
+		(start 0.775 0.775)
+		(end -0.775 0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8abaa292-f4a4-4670-8741-f8957afa7869")
+	)
+	(fp_circle
+		(center 1.905 0)
+		(end 6.105 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "19d3cecd-1527-4067-9b9e-925c019f1e81")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "3414fc8d-efcf-4a3a-ad91-dc0ef63c4341")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbad13c9-022a-4de6-8822-814e26186b79")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/CapElect D 8.4 P 3.81.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

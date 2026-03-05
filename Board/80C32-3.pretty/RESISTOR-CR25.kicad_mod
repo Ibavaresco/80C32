@@ -1,0 +1,163 @@
+(footprint "RESISTOR-CR25"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 5.08 -2.52 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fd59855e-6444-4660-97e8-a3bff8ded49f")
+		(effects
+			(font
+				(size 1.64 1.725)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "100R"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dd8a6a55-851d-4bb8-8f29-0b1469f9d3dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98866d39-4f0d-4d0e-9b42-a27e939e4e21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c48ae55-97cf-433f-b3b6-317455e857d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 2.54 -1.27)
+		(end 7.62 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2acad025-fd4d-410e-a8c5-276941cc174f")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e4a6b0a6-c0b7-4b2b-996e-627f5ff05842")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end 7.62 1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5066fd92-0a9a-432c-b372-7496e7aae2be")
+	)
+	(fp_line
+		(start 7.62 1.27)
+		(end 7.62 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76171987-4d57-4deb-973d-7ebd8ffa58fe")
+	)
+	(fp_line
+		(start -0.775 -1.27)
+		(end -0.775 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80a855c8-a781-4100-891a-40a698d16e9c")
+	)
+	(fp_line
+		(start -0.775 1.27)
+		(end 10.935 1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "672c79b9-a150-4a93-9ca4-7649854d58b5")
+	)
+	(fp_line
+		(start 10.935 -1.27)
+		(end -0.775 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3069fc5b-2604-44ee-b913-1640c35ac0e8")
+	)
+	(fp_line
+		(start 10.935 1.27)
+		(end 10.935 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d864149d-797b-4c29-935d-717a5ae33fec")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37b31b37-937f-4ff0-aff1-bd0c95dbf696")
+	)
+	(pad "2" thru_hole circle
+		(at 10.16 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0b502d6-6246-47f3-a42c-36b424d39e7b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/Resistor PTH L 10mm.STEP"
+		(offset
+			(xyz 5.08 0 -1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,234 @@
+(footprint "CONNECTOR-MOLEX-KK6373-03"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.425 2.54 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "be458d60-6062-4ac0-a2ba-7ba6db96a729")
+		(effects
+			(font
+				(size 1.64 1.725)
+				(thickness 0.25)
+			)
+		)
+	)
+	(property "Value" "SERIAL"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f939d7e0-6536-4009-a547-471ae4fad0c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9f3646f-4758-47a0-bd27-53b40d820f6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92745a10-beb4-4fdd-9fee-460fd4f3faa5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.175 -1.27)
+		(end 3.175 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "294f2170-93d5-4d63-bb22-b867aa05edb8")
+	)
+	(fp_line
+		(start -3.175 6.35)
+		(end -3.175 -1.27)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6f08f71-e6b8-415b-9e20-960b1a3636f1")
+	)
+	(fp_line
+		(start -2.22 5.08)
+		(end -2.22 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c52ff9f4-c9c1-4dcd-a40f-c30262b43162")
+	)
+	(fp_line
+		(start -1.27 0)
+		(end -3.175 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "140e6271-eee8-4a7e-887e-d82d112685a8")
+	)
+	(fp_line
+		(start -1.27 5.08)
+		(end -3.175 5.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a0decd6-dfeb-4465-bc87-05b62ffb3705")
+	)
+	(fp_line
+		(start -1.27 5.08)
+		(end -1.27 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "acd1772a-ee82-44da-9909-6327d95c41e4")
+	)
+	(fp_line
+		(start 3.175 -1.27)
+		(end 3.175 6.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c860d5a-06bb-4a5e-a663-122efa087ded")
+	)
+	(fp_line
+		(start 3.175 6.35)
+		(end -3.175 6.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f6b4d97-8613-46ce-b85c-d7658e9ac1a5")
+	)
+	(fp_poly
+		(pts
+			(xy 0.75 -2.695) (xy -0.75 -2.695) (xy 0 -1.395)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d199ec4c-59f8-45ec-9265-532acc8e3669")
+	)
+	(fp_line
+		(start -3.175 -1.27)
+		(end 3.175 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "427081e7-4069-4f8d-a794-75c5acb1d8dd")
+	)
+	(fp_line
+		(start -3.175 0.775)
+		(end 3.175 0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "562eddd7-0276-447f-b9b5-501f7f691bf8")
+	)
+	(fp_line
+		(start -3.175 6.35)
+		(end -3.175 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0aaef9a-96ed-48ac-82cf-4bb368a46566")
+	)
+	(fp_line
+		(start 3.175 -1.27)
+		(end 3.175 6.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1af11fcd-e17d-4ba8-9925-dab60a7d1287")
+	)
+	(fp_line
+		(start 3.175 6.35)
+		(end -3.175 6.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "589912d2-01ea-45b6-b77d-01bf4b65edeb")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f4c30e7e-c33a-405b-842d-c9773ffb2e80")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fd31fed-a509-41f5-aef3-fbb373392302")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08 180)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd850ab1-eb93-46ff-9e75-a73a10dd0dcb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/Molex 22-27-2031.stp"
+		(offset
+			(xyz 0 -1.27 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
