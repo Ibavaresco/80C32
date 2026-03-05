@@ -12883,6 +12883,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 22.86 149.86)
+		(end 109.22 218.44)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b608ad0c-7930-46e8-8566-d3c9c970fd09)
+	)
+	(text "OPTIONAL\n(Not implemented in this version of the board)"
+		(exclude_from_sim no)
+		(at 63.246 152.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3dec3909-26b9-4924-9365-c99a9d96e9b2")
+	)
 	(junction
 		(at 58.42 276.86)
 		(diameter 0)
@@ -24910,7 +24932,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22pF"
 			(at 136.525 209.55 90)
 			(effects
 				(font
@@ -31189,7 +31211,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22pF"
 			(at 156.845 209.55 90)
 			(effects
 				(font
