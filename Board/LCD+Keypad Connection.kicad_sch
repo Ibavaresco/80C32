@@ -3820,6 +3820,17 @@
 		)
 		(uuid "6555eed7-a99e-44da-9b06-236b8d54ad60")
 	)
+	(text "0"
+		(exclude_from_sim no)
+		(at 269.494 194.31 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a79d69d-7cd6-49eb-886b-892689dcdb1f")
+	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 120.904 167.894 0)
@@ -3874,6 +3885,16 @@
 			(justify right)
 		)
 		(uuid "78898dd9-8302-48b3-9c93-24ab4081d834")
+	)
+	(text "LCD and Keypad Connections For 80C32 Board"
+		(exclude_from_sim no)
+		(at 231.648 173.228 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "792b9b92-1729-4e2e-88e8-eb76a7211bfe")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -3962,6 +3983,17 @@
 			(justify right)
 		)
 		(uuid "a4c94c36-6d52-4c09-80f1-c6418dfd0c29")
+	)
+	(text "By Isaac Marino Bavaresco"
+		(exclude_from_sim no)
+		(at 231.902 178.816 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify bottom)
+		)
+		(uuid "a823488b-8ee5-4c67-8675-6c7b9f37aea0")
 	)
 	(text "D4"
 		(exclude_from_sim no)
@@ -4127,6 +4159,17 @@
 			(justify right)
 		)
 		(uuid "d8de41fa-c6ab-4ff7-8cc8-8eca0c94ea11")
+	)
+	(text "2026/03/10"
+		(exclude_from_sim no)
+		(at 207.264 194.31 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1b7e718-9819-4dc4-ac12-ef23d94aec6e")
 	)
 	(text "D5"
 		(exclude_from_sim no)
@@ -4365,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 115.57) (xy 167.64 127)
+			(xy 167.64 116.84) (xy 167.64 127)
 		)
 		(stroke
 			(width 0)
@@ -4495,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 107.95) (xy 154.94 107.95)
+			(xy 152.4 109.22) (xy 154.94 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4595,7 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 144.78 92.71)
+			(xy 154.94 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4605,7 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 102.87) (xy 149.86 147.32)
+			(xy 149.86 104.14) (xy 149.86 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4615,7 +4658,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 162.56 129.54)
+			(xy 162.56 116.84) (xy 162.56 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4635,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 115.57) (xy 172.72 124.46)
+			(xy 172.72 116.84) (xy 172.72 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4655,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 144.78) (xy 152.4 107.95)
+			(xy 152.4 144.78) (xy 152.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4665,7 +4708,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 147.32 149.86)
+			(xy 147.32 99.06) (xy 147.32 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4805,7 +4848,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 92.71) (xy 144.78 152.4)
+			(xy 144.78 93.98) (xy 144.78 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +4858,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 97.79) (xy 147.32 97.79)
+			(xy 154.94 99.06) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4855,7 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 149.86 102.87)
+			(xy 154.94 104.14) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +5041,7 @@
 		(dnp no)
 		(uuid "732b4689-5b19-45cc-bfd2-63b3672b661c")
 		(property "Reference" "CN4"
-			(at 121.666 97.028 0)
+			(at 127 97.028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5180,7 @@
 	)
 	(symbol
 		(lib_id "80C32-3:KEYPAD-3X4")
-		(at 154.94 92.71 0)
+		(at 154.94 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5145,7 +5188,7 @@
 		(dnp no)
 		(uuid "73d2751c-9b0b-4d2f-b0da-a38608dbfd04")
 		(property "Reference" "U2"
-			(at 167.64 86.868 0)
+			(at 167.64 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5197,7 @@
 			)
 		)
 		(property "Value" "KEYPAD NUMERIC 3x4"
-			(at 179.07 100.33 90)
+			(at 179.07 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 92.71 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 92.71 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5180,7 +5223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 92.71 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
